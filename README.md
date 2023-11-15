@@ -1,27 +1,31 @@
-# TriSAT
+![Python 3.8](https://img.shields.io/badge/python-3.8-green)
 
-## Introduction
-**Tri**modal representations for **S**entiment **A**nalysis from **T**ransformers(**TriSAT**)
-
-## Requirements
-- Python 3.8
-- Pytorch 1.7.1
-- CUDA 10.1
-
-## Overview architecture for TriSAT
-![Total framework for TriSAT](framework.png)\
-TriSAT fuses three modalities at a time through the attention mechanism and uses ar loss and tsc loss to assist in sentiment analysis.\
-The core of our model is the trimodal transformer module (```multimodal_transformer.py```),\
-And the ar, tsc loss modules (```losses.py```).\
-The entire TriSAT framework is in ```models_transformer.py```.
+>Codes for **TriSAT: Trimodal Representation Learning for Multimodal Sentiment Analysis**.
 
 ## Usage
+### Clone the repository
+    git clone https://github.com/gw-zhong/TriSAT.git
+### Download the datasets and BERT models
++ [CMU-MOSI & CMU-MOSEI (**Glove**) [align & unaligned]](http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/) (which are not available now)
 
-### Dataset
-processed MOSI, MOSEI and IEMOCAP can be downloaded from:
-http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/
++ [CMU-MOSI & CMU-MOSEI (**BERT**) [align & unaligned]](https://github.com/thuiar/MMSA)
+
+Alternatively, you can download these datasets from:
+- [BaiduYun Disk](https://pan.baidu.com/s/16UcDXgwmq9kxHf6ziJcChw) ```code: zpqk```
+
+For convenience, we also provide the BERT pre-training model that we fine-tuned with:
+
+- [BaiduYun Disk](https://pan.baidu.com/s/12zhRpTEx5589Bmo0OAF5cg) ```code: e7mw```
+
+### Preparation
+Create (empty) folders for data, results, and models:
+ ```python
+cd TriSAT
+ mkdir input results models
+```
+and put the downloaded data in 'input/'.
 
 ### Run the code
-~~~~
+ ```python
 python main_[DatasetName].py [--FLAGS]
-~~~~
+ ```
