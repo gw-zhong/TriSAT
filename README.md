@@ -34,11 +34,11 @@ python main_[DatasetName].py [--FLAGS]
 Please cite our paper if you find that useful for your research:
  ```bibtex
 @article{huan2024trisat,
-  title={TriSAT: Trimodal Representation Learning for Multimodal Sentiment Analysis},
-  author={Huan, Ruohong and Zhong, Guowei and Chen, Peng and Liang, Ronghua},
-  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
-  year={2024},
-  publisher={IEEE}
+   title={TriSAT: Trimodal Representation Learning for Multimodal Sentiment Analysis},
+   author={Huan, Ruohong and Zhong, Guowei and Chen, Peng and Liang, Ronghua},
+   journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+   year={2024},
+   publisher={IEEE}
 }
  ```
 
