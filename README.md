@@ -1,6 +1,6 @@
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green)
 
->Codes for **TriSAT: Trimodal Representation Learning for Multimodal Sentiment Analysis** （Accepted by IEEE/ACM Transactions on Audio, Speech and Language Processing）.
+>Codes for **[TriSAT: Trimodal Representation Learning for Multimodal Sentiment Analysis](https://ieeexplore.ieee.org/document/10675444)** （Accepted by IEEE/ACM Transactions on Audio, Speech and Language Processing）.
 
 ## Usage
 ### Clone the repository
