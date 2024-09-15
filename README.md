@@ -30,5 +30,17 @@ and put the downloaded data in 'input/'.
 python main_[DatasetName].py [--FLAGS]
  ```
 
+## Citation
+Please cite our paper if you find that useful for your research:
+ ```bibtex
+@article{huan2024trisat,
+  title={TriSAT: Trimodal Representation Learning for Multimodal Sentiment Analysis},
+  author={Huan, Ruohong and Zhong, Guowei and Chen, Peng and Liang, Ronghua},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  year={2024},
+  publisher={IEEE}
+}
+ ```
+
 ## Contact
 If you have any question, feel free to contact me through [guoweizhong@zjut.edu.cn](guoweizhong@zjut.edu.cn).
